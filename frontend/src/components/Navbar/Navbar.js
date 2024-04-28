@@ -16,7 +16,7 @@ export default function Navbar() {
     //     <a href="#contact">Settings</a>
     //   </li>
     // </ul>
-    <div class="navbar">
+    <div class="Navbar">
       <img src={assets.logo} alt="" className="logo" />
       <img src={assets.logout_icon} alt="" className="logout_icon" />
       <img src={assets.menu_1} alt="" className="menu_1" />
@@ -30,4 +30,3 @@ export default function Navbar() {
     </div>
   );
 }
-
