@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import { assets } from "../assets/assets";
+import { assets } from "../../assets/assets";
+import ExploreMenu from "../ExploreMenu/ExploreMenu";
 export default function Navbar() {
   return (
     // <ul>
@@ -20,13 +21,16 @@ export default function Navbar() {
       <img src={assets.logo} alt="" className="logo" />
       <img src={assets.logout_icon} alt="" className="logout_icon" />
       <img src={assets.menu_1} alt="" className="menu_1" />
+      <img src={assets.menu_2} alt="" className="menu_2" />
       <ul className="navbar-menu">
         <li>Home</li>
         <li>Menu</li>
         <li>Setting</li>
         <li>Contact-us</li>
       </ul>
-      <div className="=navbar-right"></div>
+      <div className="=navbar-right">
+        <ExploreMenu />
+      </div>
     </div>
   );
 }

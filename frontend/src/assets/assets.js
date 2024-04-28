@@ -62,6 +62,8 @@ import parcel_icon from "./parcel_icon.png";
 
 export const assets = {
   logo,
+  menu_1,
+  menu_2,
   basket_icon,
   header_img,
   search_icon,
