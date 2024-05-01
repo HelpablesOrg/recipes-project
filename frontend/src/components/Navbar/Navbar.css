@@ -1,8 +1,62 @@
-.logo {
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navabr.logo {
   height: 100px;
   width: 100px;
 }
-.logout{
-    height: 2px;
-    width: 8px;
+.navabr-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #921515;
+  font-size: 18px;
+}
+
+.navbar-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 40px !important;
+}
+.navabr button {
+  background-color: transparent;
+  font-size: 16px;
+  color: #4f4f4f;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.navabr button.hover {
+  background-color: greenyellow;
+}
+.navabr-active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #10a542;
+}
+.navabr li {
+  cursor: pointer;
+}
+
+.logout {
+  height: 2px;
+  width: 8px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-search-icon {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: #921515;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
 }
