@@ -8,6 +8,7 @@ import { Home } from "./Pages/Home/Home";
 import { PlaceOrder } from "./Pages/PlaceOrder/PlaceOrder";
 function App() {
   return (
+    
     <div className="App">
       <Navbar />
       <BrowserRouter>
@@ -20,5 +21,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
